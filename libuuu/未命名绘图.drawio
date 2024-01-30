@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T03:11:43.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.0.2" etag="RUrRev9j_EaT33i84CWC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T08:16:23.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="WZ5a10Wn-PN796pseRWH" version="23.0.2" type="github">
   <diagram name="第 1 页" id="2HxO7je2tRMQ0RBZFBat">
-    <mxGraphModel>
+    <mxGraphModel dx="2026" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LUGfVyTX6iETMPzaW94x-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;上电启动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;OTA升级&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-6" target="LUGfVyTX6iETMPzaW94x-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="460" />
+              <mxPoint x="920" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-6" target="LUGfVyTX6iETMPzaW94x-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;工作模式(5s)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-7" target="LUGfVyTX6iETMPzaW94x-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-7" target="LUGfVyTX6iETMPzaW94x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-7" target="LUGfVyTX6iETMPzaW94x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-7" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;OTA等待模式&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;退出指令，直接退出，不等待10秒&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="250" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;检测到OTA升级指令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;上电10秒超时，未收到任何指令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-19" target="LUGfVyTX6iETMPzaW94x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-19" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;外部中断&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="600" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-20" target="LUGfVyTX6iETMPzaW94x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-20" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;TIM6定时器超时（25s）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="600" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-21" target="LUGfVyTX6iETMPzaW94x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-21" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;蜂鸣片报警&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-22" target="LUGfVyTX6iETMPzaW94x-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-22" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;休眠模式(25s)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;5秒内未收到指令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="680" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;收到连续三帧电池报警指令&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="370" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.463;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LUGfVyTX6iETMPzaW94x-22" target="LUGfVyTX6iETMPzaW94x-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.92" y="120" as="sourcePoint" />
+            <mxPoint x="439.99999999999994" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="120" />
+              <mxPoint x="200" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUGfVyTX6iETMPzaW94x-43" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;报警结束&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
